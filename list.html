@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add link</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: left; margin-top: 50px; }
+        h1 { color: #4CAF50; text-align: center; }
+        p { color: #030fbc; font-size: large;font-weight: 700; font }
+        #head2 { color: rgb(131, 94, 241); text-align: center;}
+        #nested_Lists { color: rgb(131, 94, 241); text-align: center;}
+        dt { color: rgb(56, 1, 12); font-size: medium; font-weight: bolder;}
+    </style>
+</head>
+<body>
+    <!--Description List (definitions)-->
+    <h1>Welcome to My GitHub Page!</h1>
+    <br>
+    <h2 id="head2">There are three type of list in Html</h2>
+    <p>Description List (definitions)</p>
+    <dt>Unordered Lists</dt>
+    <dd>Used for shows items with bullets </dd>
+    <dt>Ordered Lists</dt>
+    <dd>Used for shows items with numbers (1, 2, 3…) </dd>
+    <dt>Description List (definitions)</dt>
+    <dd>Used for terms and their descriptions </dd>
+    <!--Ordered Lists-->
+    <p>Ordered Lists</p>
+    <ol type="1">
+        <!-- يمكن استخدام "A", "a", "I", "i" -->
+        <li>First Element</li>
+        <li>Second Element</li>
+        <li>Third Element</li>
+    </ol>
+    <!--Unordered Lists-->
+    <p>Unordered Lists</p>
+    <ul>
+        <li>First Element</li>
+        <li>Second Element</li>
+        <li>Third Element</li>
+    </ul>
+    <!--Nested Lists-->
+    <br>
+    <p id="nested_Lists">Nested Lists</p>
+    <ul>
+        <li>First Element</li>
+        <li>Second Element</li>
+            <ol type="i">
+                <li>First Element</li>
+                <li>Second Element</li>
+                <li>Third Element</li>
+            </ol>
+        <li>Third Element</li>
+    </ul>
+
+</body>
+</html>
