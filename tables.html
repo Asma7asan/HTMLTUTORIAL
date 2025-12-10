@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        h1 { color: #4CAF50; text-align: center; margin-top: 50px; font: size 1000px; ;}
+        #first { color: #5d0202; text-align: center; font-size: 30px; font-weight: bold; }
+        #table_1 {font-size: 50px; color: rgb(107, 61, 5);}
+        #table_2 {font-size: 50px;color: cadetblue;}
+        #table_3 {font-size: 50px; color: darkgreen;}
+        #table_4 {font-size: 50px; color: rgb(166, 5, 64);}
+    </style>
+</head>
+<body>
+    <h1>Welcome to My GitHub Page!</h1>
+    <p id="first">Tables</p>
+    <table id="table_1" border="1" >
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+            <tr>
+                <td>Ali</td>
+                <td>25</td>
+                <td>Yemen</td>
+            </tr>
+            <tr>
+                <td>Sara</td>
+                <td>35</td>
+                <td>Eygpt</td>
+            </tr>
+        </table>
+        <br>
+    <table id="table_2" border="2" >
+            <tr>
+                <th>Name</th>
+                <th colspan="2">country</th>
+            </tr>
+            <tr>
+                <td>Ali</td>
+                <td>Taiz</td>
+                <td>Yemen</td>
+            </tr>
+            <tr>
+                <td>Sara</td>
+                <td>Cairo</td>
+                <td>Eygpt</td>
+            </tr>
+        </table>
+        <br>
+    <table id="table_3" border="3" >
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th rowspan="3">yemen</th>
+            </tr>
+            <tr>
+                <td>Ali</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Sara</td>
+                <td>35</td>
+            </tr>
+        </table>
+        <br>
+        <table id="table_4" border="4">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th colspan="2">Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ahmed</td>
+                    <td>25</td>
+                    <td>Cairo</td>
+                    <td>Eygpt</td>
+                </tr>
+                <tr>
+                    <td>Sara</td>
+                    <td>22</td>
+                    <td>Taiz</td>
+                    <td>Yemen</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            	<tr>
+            		<td colspan="2">Total </td> 
+            		<td colspan="2">2</td>
+           	    </tr>
+            </tfoot>
+        </table>
+</body>
+</html>
